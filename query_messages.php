@@ -1,5 +1,5 @@
 <?php
-$data = array("user_email" => "ccfiel@gmail.com", "user_token" => "8Z2z5saERcdYtpre--La", "worker_token_id" => "24");                                                                    
+$data = array("user_email" => "ccfiel@yahoo.com", "user_token" => "yL2122k3zt1BCRy2Tf", "worker_token_id" => "24");                                                                    
 $data_string = json_encode($data);                                                                                   
  
 $ch = curl_init('http://smsblastr.com/api/v1/query_messages');                                                                      

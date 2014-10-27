@@ -1,8 +1,8 @@
 <?php
-$data = array("user_email" => "ccfiel@gmail.com", "user_token" => "1dfth5fd32yQABQcgv", "mobile_number" => "+639177048787", "message" => "Hello world. Good!");                                                                    
+$data = array("user_email" => "ccfiel@surebooked.com", "user_token" => "BUuqDCDPyUoGSvtCoFzX", "mobile_number" => "+639177048787", "message" => "test", "pay" => true);                                                                    
 $data_string = json_encode($data);                                                                                   
  
-$ch = curl_init('http://smsblastr.com/api/v1/send_number');                                                                      
+$ch = curl_init('http://staging.smsblastr.com/api/v1/send_number');                                                                      
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");                                                                     
 curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);                                                                  
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);                                                                      
