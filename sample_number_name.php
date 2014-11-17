@@ -1,5 +1,5 @@
 <?php
-$data = array("user_email" => "cc@surebooked.com", "user_token" => "BUuqDCDPyUsdawewewzX", "mobile_number" => "+639277023387", "message" => "Hello World!!!", "pay" => true);                                                                    
+$data = array("user_email" => "ccfiel@gmail.com", "user_token" => "fthvY8iDzUf5yQABQcgv", "mobile_number" => "+639177048787", "message" => "Hello World!!!", "pay" => true, "sender_name" => "SMSBlastr");                                                                    
 $data_string = json_encode($data);                                                                                   
  
 $ch = curl_init('http://smsblastr.com/api/v1/send_number');                                                                      
